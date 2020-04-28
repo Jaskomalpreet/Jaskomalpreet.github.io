@@ -2,12 +2,12 @@ body{
   font-family: "Georgia";
   background-color: #e6f0e9;
   color: #30302f;
-  margin-left:100px; margin-right: 100px;
+  margin-left:9%; margin-right: 9%;
 }
 
 nav{
   background-color: #000;
-  height: 52px;
+  height: 9%;
   width: 100%;
   position: fixed;
   top: 0;
@@ -53,7 +53,7 @@ nav ul li a{
   display: block;
   text-decoration:none;
   color: #ffffff;
-  padding: 15px 25px;
+  padding: 7% 5%;
   font-size:1.2me;
   box-sizing: border-box;
   border-right: solid 2px #000;
