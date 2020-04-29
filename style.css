@@ -7,7 +7,7 @@ body{
 
 nav{
   background-color: #000;
-  height: 9%;
+  height: 10%;
   width: 100%;
   position: fixed;
   top: 0;
@@ -81,26 +81,117 @@ nav ul li li:hover a{
   color: #FFF;
 }
 
-/*
-@media (min-width: 400px){
-  .container{
-    width: 80%
-  }
+.foto_amd{ 
+  position: absolute; 
+  top: 40%; 
+  left: 17.5%;
+}
+.foto_intel{
+  position: absolute;
+  top: 40%; 
+  right: 32%;   
+}
+.container{
+  font-family: "Georgia";
+  background-color: #e6f0e9;
+  color: #30302f;
+  margin-left:7%; margin-right: 7%;
 
 }
 
-@media(min-width: 550px){
-  .container{
-    width: 85%
-  }
+@media (min-width: 1280px){
+nav{
+  background-color: #000;
+  height: 8.4%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
-@media(min-width: 799px){
-  .container{
-    width: 95%
+}
+.foto_amd{ 
+  position: absolute;
+  top: 34.8%; 
+  left: 17.5%;
 
-  }
-  .foto_amd{
-    top: 20px;
-  }
-}*/
+}
+.foto_intel{
+  position: absolute;
+  top: 34.8%; 
+  right: 34%;   
+}
+.container{
+  font-family: "Georgia";
+  background-color: #e6f0e9;
+  color: #30302f;
+  margin-left:7%; margin-right: 7%;
+
+}
+
+}
+
+@media (min-width: 1440px){
+nav{
+  background-color: #000;
+  height: 4.5%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+}
+.foto_amd{ 
+  position: absolute;
+  top: 34.8%; 
+  left: 17.5%;
+
+}
+.foto_intel{
+  position: absolute;
+  top: 34.8%; 
+  right: 34%;   
+}
+.container{
+  font-family: "Georgia";
+  background-color: #e6f0e9;
+  color: #30302f;
+  margin-left:7%; margin-right: 7%;
+
+}
+
+} 
+
+@media (min-width: 1366px){
+nav{
+  background-color: #000;
+  height: 11%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+}
+.foto_amd{ 
+  position: absolute;
+  top: 34.8%; 
+  left: 17.5%;
+
+}
+.foto_intel{
+  position: absolute;
+  top: 34.8%; 
+  right: 34%;   
+}
+.container{
+  font-family: "Georgia";
+  background-color: #e6f0e9;
+  color: #30302f;
+  margin-left:7%; margin-right: 7%;
+
+}
