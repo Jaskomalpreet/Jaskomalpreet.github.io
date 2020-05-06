@@ -85,11 +85,15 @@ nav ul li li:hover a{
   position: absolute; 
   top: 40%; 
   left: 17.5%;
+  width:100px;
+  height:200px;
 }
 .foto_intel{
   position: absolute;
   top: 40%; 
-  right: 32%;   
+  right: 32%;  
+  width:200px;
+  height:200px;
 }
 .container{
   font-family: "Georgia";
@@ -179,13 +183,13 @@ nav{
 }
 .foto_amd{ 
   position: absolute;
-  top: 34.8%; 
+  top: 37.9%; 
   left: 17.5%;
 
 }
 .foto_intel{
   position: absolute;
-  top: 34.8%; 
+  top: 37.9%; 
   right: 34%;   
 }
 .container{
